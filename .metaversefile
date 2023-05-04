@@ -1,5 +1,25 @@
 {
   "name": "lisk",
-  "description": "A monstrous creature",
-  "start_url": "index.js"
+  "description": "lisk",
+  "start_url": "lisk_export.glb",
+  "components": [
+    {
+      "key": "physics",
+      "value": true
+    },
+    {
+      "key": "look",
+      "value": {
+        "rootBone": "Body_Head"
+      }
+    },
+    {
+      "key": "pet",
+      "value": {
+        "idleAnimation": "Walk",
+        "walkAnimation": "Walk",
+        "runAnimation": "Run"
+      }
+    }
+  ]
 }
